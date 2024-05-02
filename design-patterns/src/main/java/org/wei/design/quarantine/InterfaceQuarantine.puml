@@ -1,0 +1,16 @@
+@startuml
+
+title 类图
+scale 1.5
+
+
+Interface interface1 {
+    + void operation1();
+    + void operation2();
+    + void operation3();
+    + void operation4();
+    + void operation5();
+}
+
+
+@enduml
