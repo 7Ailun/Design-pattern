@@ -5,6 +5,7 @@ public abstract class Duck {
     // 飞行策略
     FlyBehavior flyBehavior;
 
+
     public void bark() {
         System.out.println("嘎嘎嘎，我是大鸭子");
     }
@@ -14,5 +15,4 @@ public abstract class Duck {
             flyBehavior.fly();
         }
     }
-
 }

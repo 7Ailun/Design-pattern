@@ -8,5 +8,8 @@ public class Client {
         Duck toyDuck = new ToyDuck();
         toyDuck.display();
         toyDuck.fly();
+        Byte a = 127;
+        Byte b = 2;
+        System.out.println((a * b));
     }
 }
